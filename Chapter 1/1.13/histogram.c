@@ -39,7 +39,7 @@ int main(void)
     else {
       printf("%2d: ", i);
       for (j = 1; j <= wordscount[i]; ++j)
-        putchar('-');
+        putchar('#');
       putchar('\n');
     }
 
