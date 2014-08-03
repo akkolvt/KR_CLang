@@ -18,7 +18,7 @@ int main(void)
   last_non_blank = 0;
   while ((c = rstrip(line, MAXLINE)) != EOF)
     if (last_non_blank > 0) {
-      printf("%s<END", line);
+      printf("%s<END\n", line);
     }
 
   return EXIT_SUCCESS;
